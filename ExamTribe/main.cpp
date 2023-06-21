@@ -12,7 +12,6 @@ void help() {
     std::cout << "'work (-w)' - starts working" << std::endl;
     std::cout << "'eat (-e)' - starts eating" << std::endl;
     std::cout << "'sleep (-s)' - starts sleeping" << std::endl;
-    std::cout << "'exit (-e)' - exit game" << std::endl << std::endl;
 }
 
 
