@@ -9,8 +9,6 @@ public:
     Human();
     Human(int strength, int agility, int intelligence);
 
-    virtual ~Human();
-
     //INFO METHODS
 
     void printAttributes() const;

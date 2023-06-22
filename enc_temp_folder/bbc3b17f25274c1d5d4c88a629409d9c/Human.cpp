@@ -15,8 +15,6 @@ Human::Human(int strength, int agility, int intelligence) : strength(strength), 
     else if (intelligence > 10) intelligence = 10;
 }
 
-Human::~Human() {};
-
 //INFO METHODS
 
 void Human::printAttributes() const {
