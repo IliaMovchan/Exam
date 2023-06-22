@@ -162,6 +162,5 @@ void Human::statsRoundUp() {
     else if (remaining_food > 100) remaining_food = 100;
 }
 void Human::getInjured() {
-    \
         std::cout << "I`m injured!" << std::endl;
 }
