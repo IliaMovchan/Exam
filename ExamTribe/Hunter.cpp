@@ -18,7 +18,7 @@ void Hunter::work() {
     }
     else {
         std::cout << std::endl << "I`m hunting" << std::endl;
-        srand(time(NULL));
+
 
         if (rand() % agility <= 2) getInjured();
         earned_food = rand() % intelligence;

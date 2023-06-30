@@ -5,6 +5,7 @@
 #include "Collector.h"
 #include "Fisher.h"
 
+
 void help() {
     std::cout << std::endl << "COMMAND MENU" << std::endl;
     std::cout << "'attributes (-a)' - shows attributes" << std::endl;
@@ -16,7 +17,7 @@ void help() {
 
 
 int main() {
-
+    srand(time(NULL));
     std::string attribute_name;
     int attribute_points = 5, attribute_tmp;
     int strength = 1, agility = 1, intelligence = 1;

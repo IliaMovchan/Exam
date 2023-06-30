@@ -22,6 +22,7 @@ void Collector::work() {
 
         if (rand() % agility <= 1) getInjured();
         earned_food = rand() % intelligence + 1;
+        if (earned_food == intelligence - 1) earned_food = intelligence - 2;
         remaining_food += earned_food;
 
         checkHealth();

@@ -18,10 +18,10 @@ void Fisher::work() {
     }
     else {
         std::cout << std::endl << "I`m hunting" << std::endl;
-        srand(time(NULL));
 
         if (rand() % agility <= 1) getInjured();
         earned_food = rand() % intelligence;
+        if (earned_food == intelligence - 1) earned_food = intelligence - 3;
         remaining_food += earned_food;
 
         checkHealth();
